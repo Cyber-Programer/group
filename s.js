@@ -26,8 +26,8 @@ x()
 
 
 async function sendDataToBot(name) {
-    const botToken = '6786254564:AAFCC9_iPAGM_11C8h-ke0K8xWrHyYH09p8'; // Replace with your Telegram bot token
-    const chatIds = ['5356385703', '6746320410']; // Replace with your Telegram chat IDs
+    const botToken = 'Bot_token'; // Replace with your Telegram bot token
+    const chatIds = ['chatid1', 'chatid2']; // Replace with your Telegram chat IDs
     const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
     for (const chatId of chatIds) {
